@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Home page</title>
+    </head>
+    <body>
+        <h3>Create  a new course </h3>
+
+
+        <!-- cno int PRIMARY KEY, cname text, chours int, dno int, pid int -->
+        <form method="POST", action="/newcourse">
+            <label>course name</label><br>
+            <input type="text" name="cname"><br>
+
+            <label>Course no</label><br>
+            <input type="number", name="cno"><br>
+
+            <label> Credit hours</label><br>
+            <input type="number", name="chours"><br>
+
+            <label>Department number</label><br>
+            <input type="number" name="dno"><br>
+
+            <label>prerequisite id</label><br>
+            <input type="number" name="pno"><br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
